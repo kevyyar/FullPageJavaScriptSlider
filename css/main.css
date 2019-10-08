@@ -1,0 +1,91 @@
+body,
+#slider,
+#wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-1 {
+  background: url("/img/daniil-lyusov-i0_FmR9Ptk8-unsplash.jpg");
+}
+
+.slide-2 {
+  background: url("/img/kevin-schmid-tJtVwevSrvY-unsplash.jpg");
+}
+
+.slide-3 {
+  background: url("/img/lana-graves-HS2bTRa2hsM-unsplash.jpg");
+}
+
+.slide-4 {
+  background: url("/img/patrick-langwallner-PTZ9BgapPyo-unsplash.jpg");
+}
+
+.slide-5 {
+  background: url("/img/zac-harris-jjM89aXfbZs-unsplash.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  text-align: center;
+  justify-content: center;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+  text-transform: uppercase;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+}
+
+#arrow-left {
+  width: 0;
+  height: 0;
+  left: 30px;
+  border-top: 25px solid transparent;
+  border-right: 50px solid red;
+  border-bottom: 25px solid transparent;
+}
+
+#arrow-right {
+  width: 0;
+  height: 0;
+  right: 50px;
+  border-top: 25px solid transparent;
+  border-left: 50px solid red;
+  border-bottom: 25px solid transparent;
+}
